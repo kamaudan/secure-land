@@ -13,6 +13,6 @@ import org.springframework.data.cassandra.core.mapping.Table;
 public class Product {
 
     @PrimaryKey
-    private  int id;
+    private ProductKey key;
     private String email;
 }
